@@ -5,36 +5,38 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <div className="bg-orange-100  max-w-[1161]">
-    <div className = "max-w-[1027] mx-auto flex justify-between items-center p-4 ml-60">
-        <div>
+
+    <div className=" mx-auto flex  justify-between items-center px-20 py-4 bg-orange-100  ">
+      <div className="flex gap-2 align-center">
         <img
-                        className="h-full hidden md:block"
-                        src={Logo}
-                        alt="cafelogo"
-                         />
-        </div>
-       
-        <div >
+          className="h-full hidden md:block"
+          src={Logo}
+          alt="cafelogo"
+        />
+        <p className="text-2xl font-bold font-sans "><span className="text-orange-400">Cafe </span>
+          Street</p>
+      </div>
+
+      <div >
         <ul className="flex flex-row gap-10 font-semibold text-lg ">
-        <li className="text-orange-400 ">About us</li>
-        <li>Our Products</li>
-        <li>Delievery</li>
+          <li className="text-orange-400 ">About us</li>
+          <li>Our Products</li>
+          <li>Delievery</li>
         </ul>
-        </div>
+      </div>
 
-        <div className="flex flex-row gap-4 mr-10">
-                <AiOutlineSearch size={30}/>
-                <input 
-                className="rounded-full text-black"
-                type="text"
-                placefolder="Cappucino"
-                />
-              <CiShoppingCart size={30}/>
-        </div>
+      <div className="flex flex-row gap-4 mr-10 relative">
+        <div className="absolute top-0 left-2"><AiOutlineSearch size={30} /></div>
+        <input
+          className="rounded-full text-black px-10 w-full"
+          type="text"
+          placeholder="Cappucino"
+        />
+        <CiShoppingCart size={30} />
+      </div>
 
     </div>
-    </div>
+
   )
 }
 
