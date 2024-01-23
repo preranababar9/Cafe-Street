@@ -6,7 +6,7 @@ import { CiShoppingCart } from "react-icons/ci";
 const Header = () => {
   return (
 
-    <div className=" mx-auto flex  justify-between items-center px-20 py-4 bg-orange-100  ">
+    <div className=" mx-auto flex  justify-between items-center px-20 py-4 bg-orange-100 h-[10vh]  ">
       <div className="flex gap-2 align-center">
         <img
           className="h-full hidden md:block"
