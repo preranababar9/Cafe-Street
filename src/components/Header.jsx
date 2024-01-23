@@ -5,7 +5,8 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <div className = "max-w-[1027] mx-auto flex justify-between items-center p-4 bg-[#F9D9AAA]">
+    <div className="bg-orange-100  max-w-[1161]">
+    <div className = "max-w-[1027] mx-auto flex justify-between items-center p-4 ml-60">
         <div>
         <img
                         className="h-full hidden md:block"
@@ -13,29 +14,26 @@ const Header = () => {
                         alt="cafelogo"
                          />
         </div>
-        <h1 className="text-2xl sm:text-3xl lg:text-3xl px-2">
-                <span>Cafe</span>
-                Street
-        </h1>
-
-        <div>
-        <ul>
-        <li>About us</li>
+       
+        <div >
+        <ul className="flex flex-row gap-10 font-semibold text-lg ">
+        <li className="text-orange-400 ">About us</li>
         <li>Our Products</li>
         <li>Delievery</li>
         </ul>
         </div>
 
-        <div className="">
+        <div className="flex flex-row gap-4 mr-10">
                 <AiOutlineSearch size={30}/>
                 <input 
-                className=" "
+                className="rounded-full text-black"
                 type="text"
                 placefolder="Cappucino"
                 />
               <CiShoppingCart size={30}/>
         </div>
 
+    </div>
     </div>
   )
 }
