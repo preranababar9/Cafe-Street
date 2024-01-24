@@ -21,6 +21,7 @@ const Hero = () => {
                         <div className='w-1/2 h-full flex justify-center items-center relative'>
                                 <img className='h-[80%] aspect-square rounded-full '
                                         src={HeroImg}
+                                        alt="coffee"
                                 />
                                 <p className='px-20 py-4 bg-white rounded-full font-semibold shadow-xl text-2xl absolute  left-20 top-32' >Cappucino</p>
                                 <p className='px-20 py-4 bg-white rounded-full font-semibold shadow-xl text-2xl absolute bottom-36 left-20' >18k</p>
