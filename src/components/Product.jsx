@@ -37,7 +37,7 @@ const Card = ({ img, title, price }) => {
                                 <p className='text-3xl text-amber-900 font-semibold py-4'>{price}</p>
                         </div>
                         <div className='flex justify-between gap-10'><div className='flex justify-between gap-10'>
-                                <button className=' text-xl font-semibold text-orange-400'>Hot</button>
+                                <button className=' text-xl font-semibold text-orange-400 bg-amber-900 rounded-xl py-1 px-5'>Hot</button>
 
                                 <button className=' text-xl font-semibold text-orange-400'>Cold</button>
                         </div>
