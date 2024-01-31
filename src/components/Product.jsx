@@ -8,7 +8,7 @@ export const Product = () => {
         return (
                 <div className=' flex py-10 flex-col h-full w-full bg-[#F9D9AA] '>
                         <div className='py-16 px-20 text-amber-900   '>
-                                <h1 className='text-3xl font-bold'>Popular <span className='underline-offset-1 under decoration-orange-100'>Now</span> </h1>
+                                <h1 className='text-3xl font-bold'>Popular <span className='underline  decoration-orange-400'>Now</span> </h1>
                         </div>
                         <div className='flex
                      flex-wrap items-center justify-center gap-6 '> 
