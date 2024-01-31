@@ -21,7 +21,7 @@ const Header = () => {
         <ul className="flex flex-row gap-10 font-semibold text-lg ">
           <li className="text-orange-400 ">About us</li>
           <li>Our Products</li>
-          <li>Delievery</li>
+          <li>Delivery</li>
         </ul>
       </div>
 

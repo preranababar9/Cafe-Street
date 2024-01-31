@@ -6,7 +6,7 @@ import d3 from "../image/d3.png";
 const Delivery = () => {
   return (
     <div>
-        <div className='px-32 py-16 font-bold text-4xl'>
+        <div className='px-32 py-24 font-bold text-4xl'>
         How to use Delivery <span className='underline decoration-orange-400 '>Service</span>
         </div>
         
@@ -27,7 +27,7 @@ const Delivery = () => {
         alt="coffee "
         />
         </div>
-<div className='flex justify-evenly py-4 pr-4 '>
+<div className='flex justify-evenly py-6 pr-4 pb-24 '>
         <div className='text-xl '>
 
                 <p className='text-center font-bold text-2xl'>choose your coffee</p>
