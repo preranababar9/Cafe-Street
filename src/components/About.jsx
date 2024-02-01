@@ -10,17 +10,18 @@ const About = () => {
                                 />
                         </div>
 
-                        <div className='py-10'>
-                        <h1 className='font-bold text-6xl'>About Us</h1>
-<br/>
+                        <div className='py-14'>
+                        <h1 className='font-bold text-6xl'>About us</h1>
+<br/><br/>
                         <h2 className='font-bold text-2xl'>We provide quality coffee,</h2>
                         <h2 className='font-bold text-2xl'>and ready to deliver.</h2>
 <br/>
                         <p className='text-lg'>We are a company that makes and distributes<br/>
                          delicious drinks. our main product is made with a<br/>
                           secret recipe and available in stores worldwide.</p>
-<br/>
-                          <button className='text-xl font-semibold bg-amber-900 text-orange-200 rounded-full px-4 py-4'>
+<br/><br/>
+                          <button className='text-xl font-semibold bg-amber-900 text-orange-200 rounded-full px-4 py-4
+                          hover:text-orange-400 '>
                                 Get your coffee
                           </button>
                         </div>
