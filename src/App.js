@@ -5,7 +5,8 @@ import Product from "./components/Product";
 import Delivery from "./components/Delivery";
 import About from "./components/About";
 import Menu from "./components/Menu";
-import Last from "/componenets/Last";
+
+
 function App() {
   return (
     <div>
@@ -15,7 +16,7 @@ function App() {
 <Delivery/>
 <About/>
 <Menu/>
-<Last/>
+
     </div>
   
   );
